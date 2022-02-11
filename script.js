@@ -26,5 +26,5 @@ function gamebot (num) {
       guesscount()
 }
 
-gamebot(10)
+gamebot(Math.floor(Math.random() * 100) + 1)
 
